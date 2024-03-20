@@ -1,5 +1,4 @@
 import './App.css'
-import logo from './assets/logo-white.png'
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
 import BlogsOverview from "./pages/blogsOverview/BlogsOverview.jsx";

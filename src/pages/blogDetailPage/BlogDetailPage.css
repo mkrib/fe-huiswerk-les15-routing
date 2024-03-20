@@ -1,0 +1,33 @@
+.article-specific-blog {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px 20px 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 6px;
+    margin: 30px;
+    background-color: rgba(230, 239, 234, 0.5);
+    position: relative;
+}
+
+.p-subtitle {
+    font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--color-tertiary);
+}
+
+.button-delete {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f86f6f;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.p-isDeleted {
+    text-align: center;
+    margin-top: 40px;
+}
