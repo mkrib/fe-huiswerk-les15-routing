@@ -88,7 +88,7 @@ const AddBlog = () => {
                     <input
                         id="content"
                         type="textarea"
-                        // minLength="100"
+                        minLength="100"
                         maxLength="2000"
                         name="content"
                         value={formValues.content}
