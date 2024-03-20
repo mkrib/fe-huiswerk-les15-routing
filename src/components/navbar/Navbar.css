@@ -1,0 +1,42 @@
+.nav-img-logo > img {
+    height: 40px;
+    width: 220px;
+    margin: 10px 20px;
+}
+
+nav {
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul a, ul a:visited {
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+Link {
+    cursor: pointer;
+}
+
+.nav-item-active {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.nav-item-default {
+    border-bottom: 2px solid transparent;
+}
+
